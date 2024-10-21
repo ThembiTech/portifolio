@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif; /*you can change it if you dont like it*/
+  background-color: #f0f0f0;
+}
+
+nav,
+.nav_links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh; /*CHECK UKUBA WHAT IS 17vh IN px*/
+}
+
+.nav_links {
+  gap: 25px;
+  list-style: none;
+  font-size: 13px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(186, 153, 218);
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Dancing_Script variant0", Tofu;
+}
+.logo:hover {
+  cursor: default;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  background-color: #f0f0f0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.intro-section img {
+  max-width: 200px;
+  border: 0;
+  border-radius: 0;
+  margin-right: 30px;
+}
+
+/* .intro-section img { 
+  max-width: 200px;
+  border: 0;
+  border-radius: 0;
+  margin-right: 40px;
+ } */
+
+.intro-text h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.intro-text p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.hire-me {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 35px;
+  padding-inline: 30px;
+  border-radius: 22px;
+  font-size: 18px;
+}
+
+.hire-me:hover {
+  background-color: #666;
+  transition: all 200ms ease-in-out;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 45px;
+}
+
+.yho {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-top: 35px;
+  margin-left: 35px;
+  padding-inline: 30px;
+  border-radius: 22px;
+  font-size: 18px;
+}
+.yho:hover {
+  background-color: #666;
+  transition: all 200ms ease-in-out;
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 15px;
+}
+
+#home img {
+  width: 300px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.social {
+  margin-top: 25px;
+}
+.social-container {
+  margin-top: 55px;
+  /* text-align: center; */
+  padding-left: 135px;
+}
